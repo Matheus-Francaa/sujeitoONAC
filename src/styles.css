@@ -1,0 +1,87 @@
+/* Estilos Globais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-family: "Rawline", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333333;
+    background: #ffffff;
+}
+
+/* Resetando estilos padrão */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 16px;
+    font-family: "Rawline", sans-serif;
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 16px;
+}
+
+button,
+a {
+    font-family: "Rawline", sans-serif;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+input,
+textarea,
+select {
+    font-family: "Rawline", sans-serif;
+    font-size: 1rem;
+}
+
+/* Tokens do Design System GOV.BR */
+:root {
+    --primary-color: #1351b4;
+    --primary-dark: #0d3d8a;
+    --primary-darker: #0a2a63;
+    --text-color: #333333;
+    --text-secondary: #555555;
+    --bg-light: #f0f0f0;
+    --bg-white: #ffffff;
+    --border-color: #e0e0e0;
+    --error-color: #e74c3c;
+    --border-radius: 8px;
+    --border-radius-button: 100px;
+}
+
+/* Scroll Bar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888888;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555;
+}
